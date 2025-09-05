@@ -3,8 +3,8 @@
 **GAUSS math** (General Assessment of Underlying Structured Skills in Mathematics) is an open benchmark and research community for evaluating AI on advanced mathematics.  
 
 This repository serves two purposes:  
-- 🌐 **Main Page** — the landing page of the GAUSS math organization.  
-- 📝 **Blog** — detailed introductions, updates, and information about GAUSS.  
+-  **Main Page** — the landing page of the GAUSS math organization.  
+-  **Blog** — detailed introductions, updates, and information about GAUSS.  
 
 ---
 
