@@ -1,0 +1,98 @@
+<!-- After </style></head><body> -->
+<!-- Navigation Bar -->
+<nav class="navbar">
+	<div class="nav-container">
+	  <!-- 左侧 Logo + 链接 -->
+	  <div class="nav-left">
+		<a href="index.html" class="nav-logo">GAUSS</a>
+		<ul class="nav-links">
+		  <li><a href="index.html">Main</a></li>
+		  <li><a href="blog.html">Blog</a></li>
+		  <li><a href="https://airtable.com/appPRxJQP3yFn1F8Y/pagwQMsNpdiPnXvEP/form">Problem Submission</a></li>
+		  <li><a href="https://huggingface.co/datasets/jiaxinzhang/GAUSS">Dataset</a></li>
+		  <li><a href="#">arXiv</a></li>
+		  <li><a href="https://drive.google.com/file/d/1ka15SjUl2FhzQMPOv4GQyyu5rb0tVAJT/view?usp=sharing">PDF</a></li>
+		</ul>
+	  </div>
+  </nav>
+  
+  <style>
+  /* --- Navigation Bar --- */
+  .navbar {
+	background: rgba(255, 255, 255, 0.95);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	border-bottom: 1px solid #eee;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+	height: 3.5em;
+	display: flex;
+	align-items: center;
+	backdrop-filter: blur(10px); /* 毛玻璃效果 */
+  }
+  
+  .nav-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+  }
+  
+  /* 左侧区域 */
+  .nav-left {
+	display: flex;
+	align-items: center;
+	gap: 1.5em;
+  }
+  
+  /* Logo */
+  .nav-logo {
+	font-size: 1.5rem;
+	font-weight: 800;
+	color: #0066cc;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+  }
+  
+  /* 链接组 */
+  .nav-links {
+	list-style: none;
+	display: flex;
+	gap: 0.6em;
+	margin: 0;
+	padding: 0;
+  }
+  .nav-links li { list-style: none; /* 去掉前面的点 */ }
+  
+  .nav-links li a {
+	padding: 0.4em 1.2em;
+	border-radius: 6px;
+	text-decoration: none;
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: #333;
+	transition: all 0.25s ease;
+  }
+  
+  .nav-links li a:hover,
+  .nav-links li a.active {
+	background: #0066cc;
+	color: #fff;
+  }
+
+  
+  /* 页面封面图与导航栏间距 */
+  .page-cover-image {
+	margin-top: -5.5em;
+  }
+
+  </style>
+  
+  
+  
